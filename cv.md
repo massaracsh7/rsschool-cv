@@ -17,3 +17,28 @@ I like to solve problems, search and find answers to questions, improve my level
 but curiosity and perseverance help me achieve my goals.
 
 ***************************
+
+## Skills ##
+
+* HTML
+* CSS/SCSS
+* JavaScript (Basic)
+* Git
+* Figma
+* Photoshop
+
+***************************
+
+## Code Example ##
+
+`
+function printReversedWordBySymbol(name) {
+    let i = name.length - 1;
+    while ( i >= 0) {
+      console.log(name[i]);
+      i = i - 1;
+  }
+} 
+`
+
+***************************
