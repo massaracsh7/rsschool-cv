@@ -31,7 +31,7 @@ but curiosity and perseverance help me achieve my goals.
 
 ## Code Example ##
 
-`
+```
 function printReversedWordBySymbol(name) {
     let i = name.length - 1;
     while ( i >= 0) {
@@ -39,7 +39,7 @@ function printReversedWordBySymbol(name) {
       i = i - 1;
   }
 } 
-`
+```
 
 ***************************
 
