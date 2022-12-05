@@ -42,3 +42,33 @@ function printReversedWordBySymbol(name) {
 `
 
 ***************************
+
+## Education ##
+
+* 2021 - Website layout course *"From 0 to 1"*
+
+* 2021 - *Responsive Web Design* the freeCodeCamp.org
+
+* 2014 - *ABA Therapist Education Program Distance Courses* - First and Second Levels. Distance Learning Center Applied Behavior Analysis - ABA, Psychology and Behavioral Therapy
+
+* 2010 - *Institute of Business and Management Technologies of Belarusian State University*, programmer - web designer
+
+* 2008 - *Belarusian State University*, Faculty of History
+
+***************************
+
+## Experience ##
+
+* 2015 - 2022 *Educational institution No. 235, No. 5* Minsk - tuter, aba - therapist
+
+* 2010 – 2014 *Line of Light*, content manager svetidom.ru, svetidom.by, kabsvet.ru
+
+* 2008 – 2009 *Lugovoslobodskaya secondary school* teacher of history and social science
+
+* 2005 - 2010 *5 points*, educational center, specialist in humanitarian subjects
+
+***************************
+
+## Languages ##
+
+Level of English is somewhere between B1 Intermediate and B2 Upper Intermediate (online test www.efset.org)
