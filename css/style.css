@@ -106,10 +106,7 @@ body {
 .menu__list {
   display: flex;
   justify-content: space-between;
-}
-
-.menu__item {
-  gap: 35px;
+  align-items: center;
 }
 
 .menu__link {
