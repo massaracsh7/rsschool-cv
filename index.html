@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Katsiaryna Tatarynava</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@0,400;0,600;&display=swap"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -16,22 +15,26 @@
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a href="#" class="menu__link">About me</a>
+              <a href="#about" class="menu__link">About me</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Skills</a>
+              <a href="#contacts" class="menu__link">Contacts</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Code Example</a>
+              <a href="#skills" class="menu__link">Skills</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Education</a>
+              <a href="#education" class="menu__link">Education</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Experience</a>
+              <a href="#projects" class="menu__link">Projects</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Contacts</a>
+              <a href="#experience" class="menu__link">Experience</a>
+            </li>
+
+            <li class="menu__item">
+              <a href="#code" class="menu__link">Code Example</a>
             </li>
           </ul>
         </nav>
@@ -42,9 +45,9 @@
       <main class="main">
 
         <div class="column">
-          <img class="main-photo"src="img/photo.jpg" alt="Katsiaryna Tatarynava" width="297" height="418">
+          <img class="main-photo"src="assets/img/photo.jpg" alt="Katsiaryna Tatarynava" width="297" height="418">
 
-          <section class="section contacts">
+          <section class="section contacts" id="contacts">
             <h2 class="title"> Contacts </h2>
             <ul class="contacts__list">
               <li class="contscts__item">
@@ -59,7 +62,7 @@
             </ul>
           </section>
 
-          <section class="section skills">
+          <section class="section skills" id="skills">
             <h2 class="title">Skills</h2>
             <ul class="skills__list">
               <li class="skills__item">HTML</li>
@@ -74,13 +77,13 @@
         </div>
 
         <div class="column">
-          <section class="section about">
+          <section class="section about" id="about">
             <h2 class="title">About me</h2>
             <p>My name is Katsiaryna. I am a historian by education, I received additional education in the specialty - a web designer programmer. I worked as a content manager, then for family reasons I changed my occupation and moved to work as a tutor at a school. Now I have the opportunity to continue my development in the IT field.</p>
             <p> I like to solve problems, search and find answers to questions, improve my level of skills and knowledge in various fields. It's not always easy, often I don't know much but curiosity and perseverance help me achieve my goals.</p>
           </section>
 
-          <section class="section education">
+          <section class="section education" id="education">
             <h2 class="title">Education</h2>
             <ul class="education__list">
               <li class="education__item">2021 - Website layout course <strong>"From 0 to 1"</strong>
@@ -91,37 +94,37 @@
               <li class="education__item">2008 - <strong>Belarusian State University</strong>, Faculty of History</li>
             </ul>
           </section>
-          <section class="section projects">
+          <section class="section projects" id="projects">
             <h2 class="title">Projects</h2>
             <ul class="projects__list">
               <li class="projects__item">
                 <a class="projects__link" href="https://github.com/massaracsh7/uslugus2">
-                  training site - service <strong>"Uslugus"</strong>
+                  service <strong>"Uslugus"</strong> (training site)
                 </a>
               </li>
               <li class="projects__item">
                 <a class="projects__link" href="https://github.com/massaracsh7/freshok">
-                  training site - online store <strong>"FreshOk"</strong>
+                  online store <strong>"FreshOk"</strong> (training site)
                 </a>
               </li>
               <li class="projects__item">
                 <a class="projects__link" href="https://github.com/massaracsh7/marcho2">
-                  training site - online store <strong>"Marko"</strong>
+                  online store <strong>"Marko"</strong> (training site)
                 </a>
               </li>
             </ul>
           </section>
 
-          <section class="section experience">
+          <section class="section experience" id="experience">
             <h2 class="title">Experience</h2>
             <ul class="experience__list">
-              <li class="experience__item">2015 - 2022 - <strong>Educational institution No. 235, No. 5</strong>, Minsk Tuter, aba - therapist -</li>
+              <li class="experience__item">2015 - 2022 - <strong>Educational institution No. 235, No. 5</strong>, tuter, aba-therapist</li>
               <li class="experience__item">2010 – 2014  - <strong>Line of Light</strong>, content manager svetidom.ru, svetidom.by, kabsvet.ru</li>
-              <li class="experience__item">2008 – 2009 - <strong>Lugovoslobodskaya secondary school</strong> teacher of history and social science</li>
+              <li class="experience__item">2008 – 2009 - <strong>Lugovoslobodskaya secondary school</strong>,  teacher of history and social science</li>
               <li class="experience__item">2005 - 2010 - <strong>5 points</strong>, educational center, specialist in humanitarian subjects</li>
             </ul>
           </section>
-          <section class="section code">
+          <section class="section code" id="code">
             <h2 class="title">Code Example</h2>
             <pre>  
               <code>
@@ -140,11 +143,11 @@
 
       <footer class="footer">
         <a class="footer__link" href="https://github.com/massaracsh7">
-          <img src="img/github.svg" alt="github" width="24" height="24">
+          <img src="assets/img/github.svg" alt="github" width="24" height="24">
         </a>
         <time>2022</time>
         <a class="footer__link" href="https://rs.school/js/">
-          <img src="img/rs_school_js.svg" alt="rs_school_js" width="50" height="30">
+          <img src="assets/img/rs_school_js.svg" alt="rs_school_js" width="50" height="30">
         </a>
       </footer>
 
