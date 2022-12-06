@@ -50,7 +50,7 @@ body {
   font-weight: 400;
   line-height: 2;
   color: #333333;
-  background-color: #fff;
+  background-color: #f0f0f0;
 }
 
 .container {
@@ -87,11 +87,12 @@ body {
   justify-content: space-between;
 }
 
-.menu__item:not(:last-child) {
-  margin-right: 35px;
+.menu__item {
+  gap: 35px;
 }
 
 .menu__link {
+  font-weight: 700;
   padding: 2px;
   border: 3px solid transparent;
   transition: color 0.2s linear, border 0.2s linear, background-color 0.1s ease-in-out;
@@ -153,6 +154,8 @@ body {
 
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   padding: 30px 0;
+  gap: 60px;
 }
