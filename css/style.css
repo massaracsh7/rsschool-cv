@@ -196,3 +196,16 @@ body {
 .footer__link:hover {
   filter: drop-shadow(8px 8px 10px gray);
 }
+
+@media (max-width: 768px) {
+  .main {
+    display: block;;
+  }
+}
+
+@media (max-width: 576px) {
+  .main {
+    display: block;
+    ;
+  }
+}
