@@ -51,6 +51,9 @@ body {
   line-height: 2;
   color: #333333;
   background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .container {
@@ -95,7 +98,7 @@ body {
   font-weight: 700;
   padding: 2px;
   border: 3px solid transparent;
-  transition: color 0.2s linear, border 0.2s linear, background-color 0.1s ease-in-out;
+  transition: border 0.2s linear, filter 0.1s ease-in-out;
 }
 
 .menu__link:focus {
@@ -110,11 +113,15 @@ body {
 
 .main {
   display: flex;
-  gap: 120px;
+  gap: 60px;
+}
+
+.main-photo {
+  margin: 0 auto;
 }
 
 .section {
-  padding: 30px;
+  padding: 30px 60px;
 }
 
 .section>ul>li {
@@ -140,11 +147,18 @@ body {
 .column {
   background-color: rgba(35, 82, 222, 0.1);
   filter: drop-shadow(8px 8px 10px gray);
+  border-radius: 20px;
 }
 
-.skills__list {
+.skills__list,
+.education__list,
+.projects__list,
+.experience__list {
   list-style-type: disc;
+}
 
+.projects__link:hover {
+  text-decoration: underline;
 }
 
 .code>pre {
@@ -158,4 +172,12 @@ body {
   align-items: center;
   padding: 30px 0;
   gap: 60px;
+}
+
+.footer__link {
+  transition: filter 0.1s ease-in-out;
+}
+
+.footer__link:hover {
+  filter: drop-shadow(8px 8px 10px gray);
 }
